@@ -1,0 +1,23 @@
+h1 {
+    color:#F9FAF8;
+}
+body{
+    background-color: #1F2937;
+}
+nav {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.links{
+    display:flex;
+    justify-content:flex-end;
+}
+button {
+    background-color: #3882f6;
+    color:#F9FAF8;
+}
+.computer {
+    display: flex;
+    justify-content:flex-end;
+}
