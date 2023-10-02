@@ -3,36 +3,47 @@
     <head>
     <meta charset="utf-8">
     <title>My First Webpage</title>
-    <link rel="stylesheet" href="/home/mint/repos/landingpage/index.css">
+    <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <a href="landing_page/landing_page.html"></a>
         <nav class="container">
-            <div class="logo">Header Logo</div>
-            <div class="links">
+            <div class="logo"><b>Header Logo</b></div>
+            <div class="items">
             <div class="home">Home</div>
             <div class="about">About Me</div>
             <div class="Projects">Projects</div>
         </div>
         </nav>
-        <div class="top">
-        <h1> This website is awesome</h1>
-        <p>Please enjoy the rest of my website</p>
-        <img src="/home/mint/repos/landingpage/images/index.png" class="computer" alt="Computer">
-        <button>Sign Up</button>
-    </div>
+
+        <div class="top-half">
+            <div class="words">
+            <h1>This website is about me</h1>
+            <p>This website goes into details about myself</p>
+            <button>Sign up</button>
+        </div>
+            <img src="images\index.png" class="computer" alt="computer picture">
+        </div>
+        
+<div class="white-background">
         <div class="facts">
         <h2>Some Random Facts</h2>
-        <img src="/home/mint/repos/landingpage/images/fsu.jpeg" alt="FSU">
-        <p>I attend Florida State University majoring in Information Technology.</p>
-        <img src="/home/mint/repos/landingpage/images/sagg.jpeg" alt="Saggitarius">
-        <p>My horoscope is a saggitarius. My birth month is December.</p>
-        <img src="/home/mint/repos/landingpage/images/shrimp.jpeg" alt="shrimp&Grits">
-        <p>My favorite dish is Shrimp and Grits. It is a southern dish.</p>
+        <div class="random">
+            <img src="images\fsu.jpeg" alt="FSU" class="fsu">
+            <img src="images\sagg.jpeg" alt="Saggitarius" class="sagg">
+            <img src="images\shrimp.jpeg" alt="shrimp&Grits" class="shrimp">
+        </div>
+            <div class="caption">
+            <figcaption> I attend Florida State University majoring <br>in Information Technology.</figcaption>
+            <figcaption> My horoscope is a saggitarius. My birth month is December.</figcaption>
+            <figcaption> My favorite dish is Shrimp & Grits.</figcaption>
+        </div>
+    
     </div>
     <div class="quotes">
-        <p><i>The only impossible journey is the one you never begin</i></p>
-        <p><b>Tony Robbins</b></p>
+        <p>When one door closes, another opens; but we often look so long and so regretfully<br>
+            upon the closed door that we do not see the one which has opened for us<br>
+        </p>
+        <p class="author"><b>-Alexander Graham Bell</b></p>
     </div>
     <div class="action">
         <h4>Call to action! It's time!</h4>
@@ -42,6 +53,6 @@
 
     </body>
     <footer>
-
+        <p>Copyright @ The Odin Project 2021</p>
     </footer>
 </html>

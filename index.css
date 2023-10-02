@@ -1,23 +1,127 @@
+/* nav css */
+.logo{
+    color:#F9FAF8;
+    font-size: 24px;
+    margin:auto;
+}
+.items {
+    font-size: 18px;
+    color:#E5E7EB;
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+    margin:auto;
+    
+}
+
+.container{
+    display:flex;
+}
+/* top half */
+
+.top-half{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:300px;
+    
+
+}
+
+.computer{
+    height:250px;
+    width:600px;
+    
+}
+
 h1 {
     color:#F9FAF8;
+    font-size: 48px;
+    font-weight:bolder;
+    
+}
+p{
+    font-size: 36px;
+
 }
 body{
     background-color: #1F2937;
-}
-nav {
-    display: flex;
-    justify-content:space-evenly;
+    color:#E5E7EB;
+    opacity: 0.9;
+    font-family: 'Roboto';
 }
 
-.links{
-    display:flex;
-    justify-content:flex-end;
-}
+
 button {
     background-color: #3882f6;
     color:#F9FAF8;
+    border-color: #F9FAF8;
+    font-weight: 700;
 }
-.computer {
+/* random facts */
+.random{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;    
+}
+.fsu, .sagg, .shrimp {
+    border-radius:16px;
+    border:#3882f6 5px solid;
+}
+.caption{
     display: flex;
-    justify-content:flex-end;
+    justify-content:space-evenly;
+}
+.awesome{
+    font-size: 48px;
+    font-weight:700px;
+}
+.caption{
+    font-size:18px;
+    color:#E5E7EB;
+}
+.white-background {
+    background-color: #F9FAF8;
+    margin:auto;
+    height:450px;
+}
+h2{
+    display:flex;
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    justify-content: center;
+
+}
+.awesome{
+    border-spacing:10px;
+}
+figcaption{
+    color: #1F2937;
+    text-wrap: wrap;
+}
+.quotes{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    margin:center;
+    height:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.author{
+    font-style: normal;
+}
+
+.action {
+    background-color: #3882f6;
+    color:#F9FAF8;
+    display: flex;
+    width: 800px;
+    height:100px;
+    margin:auto;
+    justify-content: space-between;
+
 }
